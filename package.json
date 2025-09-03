@@ -1,0 +1,30 @@
+{
+  "name": "express-socket",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pamodmalith/express-socket.git",
+    "dev": "tsx watch src/index.mts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/pamodmalith/express-socket/issues"
+  },
+  "homepage": "https://github.com/pamodmalith/express-socket#readme",
+  "devDependencies": {
+    "@types/node": "^24.3.0",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "socket.io": "^4.8.1"
+  }
+}
